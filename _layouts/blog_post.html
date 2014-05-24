@@ -1,0 +1,16 @@
+{% include head.html %}
+{% include nav.html %}
+<section>
+
+<h1>{{ post.title }}</h1>
+
+ {{ content }}
+
+</section>
+
+<div class="nav_arrows">
+<a class="left" href="{{ post.previous.url }}">&#8592;</a>
+<a class="right" href="{{ post.next.url }}">&#8594;</a>
+</div>
+
+{% include footer.html %}

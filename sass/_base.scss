@@ -1,0 +1,137 @@
+html, body {
+  font-family: 'Noto Sans';
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul.post_list {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 700;
+}
+nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  padding: 10px;
+  img {
+    width: 300px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    padding-left: 30px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+}
+
+.tagline {
+  padding: 0 20px;
+  text-align: center;
+  font-size: 27px;
+  font-style: italic;
+  color: #093b75;
+}
+
+section {
+  margin-left: 300px;
+  padding: 20px;
+  width: auto;
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding:0;
+    max-height: 600px;
+  }
+}
+
+article {
+  margin-left: 300px;
+  padding: 20px;
+  width: auto;
+  img {
+    width: 250px;  margin: 0;
+    padding: 0;
+    float: left;
+  }
+  h1:not(:first-child) {
+    margin-top: 40px;
+  }
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.nav_arrows a {
+  text-decoration: none;
+  font-size: 45px;
+}
+footer {
+  clear: both;
+  width: 100%;
+  margin: 75px 0 90px 0;
+  text-align: center;
+  a {
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width:850px) {
+  nav {
+    width: 100%;
+    ul {
+      float: right;
+      margin: 50px 25px 0 0
+    }
+  }
+  section, article {
+    clear:both;
+    margin: 140px 0 0 0;
+  }
+}
+
+@media only screen and (max-width:634px) {
+  nav {
+    img {
+      margin: 0 auto;
+    }
+    ul {
+    float: none;
+    width: auto;
+    text-align: center;
+    margin: 50px auto;
+    }
+  }
+}
+
+@media only screen and (max-width:600px) {
+  nav {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+  }
+    section, article {
+    clear:both;
+    margin: 70px 0 0 0;
+  }
+}
+

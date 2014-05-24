@@ -10,6 +10,7 @@ html, body {
 
 ul.post_list {
   list-style-type: none;
+  padding: 0;
 }
 
 a {
@@ -23,7 +24,7 @@ nav {
   top: 0;
   width: 300px;
   padding: 10px;
-  background: #EDDA5A;
+  background: #F2C549;
   img {
     width: 300px;
   }
@@ -42,7 +43,7 @@ nav {
 }
 
 .tagline {
-  padding: 0 20px;
+  padding: 0 20px 40px 20px;
   text-align: center;
   font-size: 27px;
   font-style: italic;
@@ -50,7 +51,7 @@ nav {
 }
 
 section {
-  margin-left: 300px;
+  margin-left: 320px;
   padding: 20px;
   width: auto;
   img {
@@ -59,20 +60,6 @@ section {
     margin: 0 auto;
     padding:0;
     max-height: 600px;
-  }
-}
-
-article {
-  margin-left: 300px;
-  padding: 20px;
-  width: auto;
-  img {
-    width: 250px;  margin: 0;
-    padding: 0;
-    float: left;
-  }
-  h1:not(:first-child) {
-    margin-top: 40px;
   }
 }
 
@@ -88,7 +75,6 @@ article {
   font-size: 45px;
 }
 footer {
-  clear: both;
   width: 100%;
   margin: 75px 0 90px 0;
   text-align: center;

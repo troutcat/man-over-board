@@ -20,6 +20,9 @@ h1 {
 ul.post_list {
   list-style-type: none;
   padding: 0;
+  li:nth-child(even) {
+    padding-bottom:200px;
+  }
 }
 
 a {

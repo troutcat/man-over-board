@@ -14,11 +14,12 @@
 
     <li>
       <ul class="tags">
-        <li><a href="#">tag</a></li>
-        <li><a href="#">tag name</a></li>
+        {% for tags in post.tags %}
+          <li><a href="#">{{ tags }}</a></li>
+          {% endfor %}
       </ul>
     </li>
-    
+
   {% endfor %}
 </ul>
 

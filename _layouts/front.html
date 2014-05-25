@@ -15,7 +15,7 @@
     <li>
       <ul class="tags">
         {% for tags in post.tags %}
-          <li><a href="#">{{ tags }}</a></li>
+          <li><a href="{{ site.baseurl }}/tags/#{{ tags }}">{{ tags }}</a></li>
           {% endfor %}
       </ul>
     </li>

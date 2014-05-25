@@ -1,13 +1,22 @@
 html, body {
   font-family: 'Noto Sans';
+  font-size: 1.2em;
+  line-height: 1.9em;
+  color: #111;
 }
-
+ 
+h1 {
+  color: #093b75;
+}
 .container {
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
+.date {
+  color: #999;
+}
 ul.post_list {
   list-style-type: none;
   padding: 0;
@@ -15,14 +24,14 @@ ul.post_list {
 
 a {
   text-decoration: none;
-  color: #555;
+  color: #093b75;
   font-weight: 700;
 }
 
 
 section {
-  margin-left: 320px;
-  padding: 20px;
+  margin-left: 340px;
+  padding: 20px 50px;
   width: auto;
   img {
     max-width: 100%;

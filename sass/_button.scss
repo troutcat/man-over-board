@@ -1,7 +1,7 @@
 .button {
   margin-top: 10px;
   padding: 20px 26px;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 100%;
   display: block;
   vertical-align: middle;
@@ -17,11 +17,10 @@
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-.button:active {
-  padding-top: 20px;
-        margin-bottom: -1px;
-}
+
 .button a, .button a:hover, .button a:active {
   outline: 0 none;
   text-decoration: none;

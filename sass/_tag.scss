@@ -1,0 +1,63 @@
+.tags {
+  margin:0;
+  padding:0;
+  list-style:none;
+  float: right;
+  }
+
+  .tags li, .tags a{
+  float:left;
+  height:48px;
+  line-height:48px;
+  position:relative;
+  font-size:18px;
+  }
+
+  .tags a{
+  margin-left:40px;
+  padding:0 20px 0 24px;
+  background:#F2C549;
+  color:#444;
+  text-decoration:none;
+  -moz-border-radius-bottomright:4px;
+  -webkit-border-bottom-right-radius:4px; 
+  border-bottom-right-radius:4px;
+  -moz-border-radius-topright:4px;
+  -webkit-border-top-right-radius:4px;  
+  border-top-right-radius:4px;  
+  } 
+
+//tag triangle
+  .tags a:before{
+  content:"";
+  float:left;
+  position:absolute;
+  top:0;
+  left:-24px;
+  width:0;
+  height:0;
+  border-color:transparent #F2C549 transparent transparent;
+  border-style:solid;
+  border-width:24px 24px 24px 0;    
+  }
+
+//the tag hole
+  .tags a:after{
+  content:"";
+  position:absolute;
+  top:23px;
+  left:0;
+  float:left;
+  width:7px;
+  height:7px;
+  -moz-border-radius:3.5px;
+  -webkit-border-radius:3.5px;
+  border-radius:3.5px;
+  background:#fff;
+
+  }
+
+  .tags a:hover{background:#555;
+    color: #fff;} 
+
+.tags a:hover:before{border-color:transparent #555 transparent transparent;}

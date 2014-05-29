@@ -2,14 +2,17 @@
 {% include nav.html %}
 <section>
 
-<h1>{{ post.title }}</h1>
+<h1>{{ page.title }}</h1>
+<span class="date">Posted on {{ page.date | date: '%B %d, %Y' }}</span>
 
  {{ content }}
 
+ <ul class="tags">
+        {% for tags in page.tags %}
+          <li><a href="{{ site.baseurl }}/tags/#{{ tags }}">{{ tags }}</a></li>
+          {% endfor %}
+      </ul>
+
 </section>
 
-<div class="nav_arrows">
-<a class="left" href="{{ post.previous.url }}">&#8592;</a>
-<a class="right" href="{{ post.next.url }}">&#8594;</a>
-</div>
 

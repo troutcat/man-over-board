@@ -1,12 +1,25 @@
 html, body {
   font-family: 'Noto Sans';
-  font-size: 1.2em;
-  line-height: 1.9em;
+  font-size: 1em;
+  line-height: 2.2em;
   color: #111;
 }
  
 h1 {
   color: #093b75;
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 > a {
+  color: #444;
+}
+
+ul li a {
+  font-weight: 400;
 }
 .container {
   width: 100%;
@@ -33,7 +46,7 @@ a {
 
 
 section {
-  margin-left: 340px;
+  margin-left: 260px;
   padding: 20px 50px;
   width: auto;
   img {
@@ -56,12 +69,5 @@ section {
   text-decoration: none;
   font-size: 45px;
 }
-footer {
-  width: 100%;
-  margin: 75px 0 90px 0;
-  text-align: center;
-  a {
-    text-decoration: none;
-  }
-}
+
 

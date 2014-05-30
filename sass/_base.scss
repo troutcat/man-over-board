@@ -33,7 +33,7 @@ ul li a {
 ul.post_list {
   list-style-type: none;
   padding: 0;
-  li:nth-child(3) {
+  li:nth-child(3n) {
     padding-bottom:150px;
   }
 }

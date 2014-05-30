@@ -7,16 +7,16 @@
 
   .tags li, .tags a{
   float:left;
-  height:48px;
-  line-height:48px;
+  height:40px;
+  line-height:40px;
   position:relative;
-  font-size:18px;
+  font-size:14px;
   }
 
   .tags a{
   margin-left:40px;
   padding:0 20px 0 24px;
-  background:#F2C549;
+  background:#ccc;
   color:#444;
   text-decoration:none;
   -moz-border-radius-bottomright:4px;
@@ -33,19 +33,19 @@
   float:left;
   position:absolute;
   top:0;
-  left:-24px;
+  left:-20px;
   width:0;
   height:0;
-  border-color:transparent #F2C549 transparent transparent;
+  border-color:transparent #ccc transparent transparent;
   border-style:solid;
-  border-width:24px 24px 24px 0;    
+  border-width:20px 20px 20px 0;    
   }
 
 //the tag hole
   .tags a:after{
   content:"";
   position:absolute;
-  top:21px;
+  top:18px;
   left:0;
   float:left;
   width:7px;

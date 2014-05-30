@@ -1,11 +1,11 @@
 .button {
   margin-top: 10px;
-  padding: 20px 26px;
+  padding: 20px 45px;
   font-size: 20px;
   line-height: 100%;
   display: block;
   vertical-align: middle;
-  text-align: center;
+  //text-align: center;
   cursor: pointer;
   font-weight: bold;
   transition: background 0.2s ease-in-out;
@@ -14,9 +14,10 @@
   -ms-transition: background 0.2s ease-in-out;
   -o-transition: background 0.2s ease-in-out;
   color: #093b75;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  border: 3px solid #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }

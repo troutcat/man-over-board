@@ -1,6 +1,5 @@
 markdown:    redcarpet
 permalink: 	 pretty
-paginate: 3
 baseurl: /man-over-board
 title: Man Over Board
 description: Man Over Board blog

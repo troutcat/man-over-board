@@ -3,3 +3,5 @@ permalink: 	 pretty
 baseurl: /man-over-board
 title: Man Over Board
 description: Man Over Board blog
+gems:
+- jekyll-sitemap
